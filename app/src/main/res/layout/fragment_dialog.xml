@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    android:layout_height="330dp"
+    android:scrollbarSize="100dp"
+    android:background="@drawable/disable_button"
+    android:layout_gravity="center"
+
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:theme="@style/MaterialAlertDialog.MaterialComponents.Title.Text"
+    tools:context=".Fragments.DialogFragment">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="94dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="100dp"
+        android:src="@drawable/profile_black"
+        android:background="@drawable/input_round_style"
+        app:layout_constraintBottom_toTopOf="@+id/image_view_chile_dialog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.632" />
+
+    <TextView
+        android:id="@+id/textview_child_name_dialog"
+        android:layout_width="250dp"
+        android:layout_height="20dp"
+
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="@string/app_name"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/_child_email_dialog"
+        android:layout_width="250dp"
+        android:layout_height="20dp"
+
+        android:layout_marginStart="20dp"
+        android:textAlignment="center"
+        android:text="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="160dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:gravity="center"
+        android:id="@+id/btn_delete_child_dialog"
+        android:layout_width="152dp"
+        android:layout_height="44dp"
+
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        android:text="Delete Child"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

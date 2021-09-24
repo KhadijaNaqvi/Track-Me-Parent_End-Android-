@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+    <item
+        android:id="@+id/navigation_start_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/child_black"
+        android:title="Child" />
+
+    <item
+        android:id="@+id/navigation_childs"
+        android:icon="@drawable/location_child"
+        android:title="Childs Location" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/profile_black"
+        android:title="Profile" />
+
+
+</menu>
